@@ -1,8 +1,8 @@
 # Carlos I.R.
 
-Técnico Superior DAW. Soporte IT N1 y administración de sistemas. Zaragoza, España.
+Desarrollo de Aplicaciones Web. Soporte IT N1 y administración de sistemas. Zaragoza, España.
 
-Titulación oficial en Desarrollo de Aplicaciones Web (DAW). Administración de sistemas Linux, diagnóstico y automatización. Busco puesto en Zaragoza como soporte técnico, helpdesk o técnico de sistemas junior: entornos limitados, red y hardware, y scripting.
+Administración de sistemas Linux, diagnóstico y automatización. Busco puesto en Zaragoza como soporte técnico, helpdesk o técnico de sistemas junior: entornos limitados, red y hardware, y scripting.
 
 ## Infraestructura y home lab
 
@@ -24,7 +24,8 @@ Con 1 GB no hay LLM local. La carga pesada de texto va a la nube; en la Pi queda
 
 - API Groq con conmutación de modelo cuando se acaba la cuota.
 - Transcripción y conversión de formatos (Calibre).
-- Correo temporal y extracción de noticias.
+- Correo temporal
+- Extracción de noticias.
 
 ## Web y lógica
 
@@ -41,10 +42,7 @@ Juegos de mesa clásicos e históricos: reglas, interfaz, web y Android.
 
 ## Stack
 
-- Sistemas y redes: Linux (Debian), systemd, SSH, TigerVNC, Tailscale, zRAM, Bash.
-- Desarrollo: Python, SQLite, APIs REST.
-- Herramientas: Calibre (`ebook-convert`), Capacitor / Android.
-
-## Contacto
-
-[github.com/Katiuxa](https://github.com/Katiuxa)
+- Sistemas y redes: Linux (Debian), Bash, systemd, SSH, Tailscale, TigerVNC, zRAM.
+- Desarrollo (DAW): Python, JavaScript, HTML/CSS, SQLite, APIs REST.
+- Procesamiento y CLI: FFmpeg, yt-dlp, Calibre (`ebook-convert`).
+- Herramientas: Git/GitHub, Capacitor / Android, Cursor IDE.
