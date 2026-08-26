@@ -2,7 +2,7 @@
 
 Desarrollo de Aplicaciones Web. Soporte IT N1 y administración de sistemas. Zaragoza, España.
 
-Administración de sistemas Linux, diagnóstico y automatización. Busco puesto en Zaragoza como soporte técnico, helpdesk o técnico de sistemas junior: entornos limitados, red y hardware, y scripting.
+Administración de sistemas Linux, diagnóstico y automatización.
 
 ## Infraestructura y home lab
 
