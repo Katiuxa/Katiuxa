@@ -1,0 +1,15 @@
+﻿# Perfil GitHub (este directorio). Los tres bloques son repos aparte.
+01_HomeLab_y_Sistemas/
+02_Automatizacion_y_Bots/
+03_Desarrollo_Web_y_Logica/
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+token.txt
+.DS_Store
+Thumbs.db
+.cursor/
