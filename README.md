@@ -24,8 +24,9 @@ Con 1 GB no hay LLM local. La carga pesada de texto va a la nube; en la Pi queda
 
 - API Groq con conmutación de modelo cuando se acaba la cuota.
 - Transcripción y conversión de formatos (Calibre).
-- Correo temporal
+- Correo temporal.
 - Extracción de noticias.
+- [Biblioteca Secreta](https://github.com/Katiuxa/Telegram-Bots-Suite/tree/main/BotBiblioteca): catálogo de epubs en el USB. Búsqueda en SQLite por título o autor y envío del fichero por Telegram. La base y los libros no están en GitHub; solo el código.
 
 ## Web y lógica
 
