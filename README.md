@@ -1,6 +1,6 @@
 # Carlos I.R.
 
-Desarrollo de Aplicaciones Web. Soporte IT N1 y administración de sistemas. Zaragoza, España.
+Desarrollo de Aplicaciones Web y Android. Soporte IT N1 y administración de sistemas. Zaragoza, España.
 
 Administración de sistemas Linux, diagnóstico y automatización.
 
