@@ -16,7 +16,7 @@ Servidor doméstico 24/7 donde se administra de verdad, no un laboratorio de cap
 
 Proyecto: [debian-homelab](https://github.com/Katiuxa/debian-homelab)
 
-## Automatización e APIs
+## Automatización y APIs
 
 Con 1 GB no hay LLM local. La carga pesada de texto va a la nube; en la Pi queda orquestación, systemd y disco.
 
