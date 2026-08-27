@@ -6,7 +6,7 @@ Administración de sistemas Linux, diagnóstico y automatización.
 
 ## Infraestructura y home lab
 
-Servidor doméstico 24/7 donde se administra de verdad, no un laboratorio de capturas.
+Servidor doméstico 24/7.
 
 - Servidor: Raspberry Pi 3 Model B (Debian), 1 GB de RAM.
 - Servicios persistentes con systemd (bots y File Browser).
