@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c1210">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Política de privacidad de las aplicaciones móviles de Metamovidas. Publicidad AdMob, RGPD y datos del dispositivo.">
+  <title>Política de privacidad · Metamovidas</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0c1210;
+      --bg-elev: #141c18;
+      --ink: #efe6d4;
+      --muted: #a89880;
+      --gold: #d4b56a;
+      --gold-dim: #9a7f45;
+      --line: rgba(212, 181, 106, 0.18);
+      --focus: #e8d5a0;
+    }
+
+    * { box-sizing: border-box; margin: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100vh;
+      font: 17px/1.65 system-ui, "Segoe UI", Roboto, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 181, 106, 0.12), transparent 52%),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(47, 93, 74, 0.16), transparent 50%),
+        var(--bg);
+    }
+
+    a { color: var(--gold); text-underline-offset: 3px; }
+    a:hover { color: var(--focus); }
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .wrap {
+      width: min(42rem, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2.25rem 0 4rem;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      font-size: 0.82rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 650;
+    }
+
+    .lang {
+      display: flex;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .lang button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: 650 0.75rem/1 system-ui, sans-serif;
+      letter-spacing: 0.08em;
+      padding: 0.45rem 0.75rem;
+      cursor: pointer;
+    }
+
+    .lang button[aria-pressed="true"] {
+      background: var(--bg-elev);
+      color: var(--gold);
+    }
+
+    h1 {
+      margin: 1.75rem 0 0.4rem;
+      font-size: clamp(1.7rem, 4vw, 2.15rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .lede {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    nav {
+      background: var(--bg-elev);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.15rem;
+      margin-bottom: 2rem;
+    }
+
+    nav p {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      margin-bottom: 0.55rem;
+    }
+
+    nav ol {
+      padding-left: 1.15rem;
+      color: var(--muted);
+    }
+
+    nav a { text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    h2 {
+      margin: 2.1rem 0 0.7rem;
+      font-size: 1.15rem;
+      font-weight: 650;
+      color: var(--gold);
+    }
+
+    p, li { margin-bottom: 0.85rem; }
+    ul, ol { padding-left: 1.2rem; }
+    li { padding-left: 0.15rem; }
+
+    .apps {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 0.4rem 0 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .apps li {
+      margin: 0;
+      padding: 0.28rem 0.65rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .note {
+      background: var(--bg-elev);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 10px 10px 0;
+      padding: 0.9rem 1rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 2.75rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .panel[hidden] { display: none; }
+
+    @media (max-width: 520px) {
+      body { font-size: 16px; }
+      .wrap { width: min(42rem, calc(100% - 1.5rem)); }
+    }
+
+    @media print {
+      body { background: #fff; color: #111; }
+      a, h2, .brand { color: #111; }
+      nav, .lang { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="brand">Metamovidas</p>
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" id="btn-es" aria-pressed="true">ES</button>
+        <button type="button" id="btn-en" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <article id="es" class="panel" lang="es">
+      <h1>Política de privacidad</h1>
+      <p class="updated">Última actualización: 31 de agosto de 2026</p>
+      <p class="lede">Esta política describe cómo se tratan los datos en las aplicaciones móviles de puzles y juegos de mesa publicadas por <strong>Metamovidas</strong> en Google Play, monetizadas con anuncios de Google AdMob.</p>
+
+      <nav aria-label="Índice">
+        <p>Contenido</p>
+        <ol>
+          <li><a href="#es-responsable">Responsable</a></li>
+          <li><a href="#es-que-no">Datos que no recopilamos</a></li>
+          <li><a href="#es-admob">Publicidad (Google AdMob)</a></li>
+          <li><a href="#es-local">Almacenamiento local</a></li>
+          <li><a href="#es-red">Red y analíticas</a></li>
+          <li><a href="#es-derechos">Tus derechos (RGPD)</a></li>
+          <li><a href="#es-contacto">Contacto</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="es-responsable">1. Responsable del tratamiento</h2>
+      <p>El responsable es <strong>Metamovidas</strong>, con actividad en Zaragoza, España. Esta política se aplica a las aplicaciones móviles publicadas bajo esa marca en Google Play, entre otras:</p>
+      <ul class="apps">
+        <li>8 Damas</li>
+        <li>Huarongdao</li>
+        <li>Petteia</li>
+        <li>Ludus Latrunculorum</li>
+        <li>Three-Trick</li>
+        <li>Chess Puzzles</li>
+        <li>Numbers Puzzle</li>
+      </ul>
+      <p>Las apps son juegos de puzle o tablero. No están dirigidas a menores de 13 años y no se recaban datos de menores de forma intencionada.</p>
+
+      <h2 id="es-que-no">2. Datos que no recopilamos</h2>
+      <p>Metamovidas <strong>no recopila de forma directa datos personales sensibles</strong>. En particular, el desarrollador no pide ni almacena en sus propios servidores:</p>
+      <ul>
+        <li>nombre y apellidos (salvo un apodo opcional en rankings, si la app lo ofrece);</li>
+        <li>correo electrónico, teléfono o dirección postal;</li>
+        <li>contraseñas o cuentas de usuario propias;</li>
+        <li>ubicación precisa, fotos, contactos o micrófono.</li>
+      </ul>
+      <p>No hay registro de cuenta en las aplicaciones. Las compras para quitar anuncios, si existen, las procesa Google Play; el desarrollador no recibe datos de tarjetas de pago.</p>
+
+      <h2 id="es-admob">3. Publicidad: Google AdMob</h2>
+      <p>Las versiones gratuitas muestran anuncios mediante el SDK de <strong>Google AdMob</strong> (Google Ireland Limited / Google LLC). Ese SDK puede recopilar <strong>datos de uso básico</strong> e <strong>identificadores de publicidad</strong> del dispositivo (por ejemplo, el ID de publicidad de Android) para servir anuncios <strong>personalizados o no personalizados</strong>.</p>
+      <p>Según la configuración del dispositivo, el consentimiento del usuario y las políticas de Google, AdMob puede tratar, entre otros:</p>
+      <ul>
+        <li>identificador de publicidad (AAID) y señales de consentimiento;</li>
+        <li>dirección IP, idioma, modelo del dispositivo y versión del sistema;</li>
+        <li>nombre y versión de la aplicación, e interacciones con los anuncios (impresiones y clics);</li>
+        <li>información aproximada derivada de la red (no una geolocalización GPS nuestra).</li>
+      </ul>
+      <p class="note">Google actúa como responsable independiente de esos tratamientos publicitarios. Consulta la <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de privacidad de Google</a> y cómo usa los datos en <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">publicidad</a>.</p>
+      <p>Puedes limitar los anuncios personalizados en el teléfono: <strong>Ajustes → Google → Anuncios</strong> (desactivar la personalización) o en <a href="https://adssettings.google.com" rel="noopener noreferrer">adssettings.google.com</a>. En el EEE, el Reino Unido y Suiza, AdMob puede mostrar un mensaje de consentimiento (UMP / GDPR) antes de anuncios personalizados.</p>
+
+      <h2 id="es-local">4. Almacenamiento local (localStorage y preferencias)</h2>
+      <p>Las apps guardan información <strong>solo en el dispositivo</strong>, mediante <code>localStorage</code> del WebView, SharedPreferences de Android u otros almacenes locales equivalentes. Sirve para el funcionamiento del juego, no para perfilarte. Puede incluir:</p>
+      <ul>
+        <li>idioma, sonido, volumen y otras preferencias de interfaz;</li>
+        <li>progreso, niveles, partidas a medias y récords locales;</li>
+        <li>el estado de la compra «quitar anuncios», si aplica.</li>
+      </ul>
+      <p>Esos datos no se envían a servidores de Metamovidas. Si desinstalas la app o borras sus datos en Android, se eliminan del teléfono.</p>
+
+      <h2 id="es-red">5. Analíticas de red y funciones en línea</h2>
+      <p>Al mostrar anuncios, el SDK de AdMob realiza peticiones de red cifradas a servidores de Google. En esas comunicaciones viajan metadatos técnicos habituales (IP, identificadores de publicidad, versión de la app). Metamovidas <strong>no opera una plataforma propia de analítica</strong> tipo Google Analytics sobre el uso de las partidas.</p>
+      <p>Algunas apps pueden, de forma opcional y explícita, usar red para:</p>
+      <ul>
+        <li>un ranking o tabla de récords (por ejemplo un apodo y un tiempo);</li>
+        <li>salas o partidas en línea (código de sala y estado de la partida).</li>
+      </ul>
+      <p>Esa información se limita a lo necesario para esa función. No se combina con tu correo ni con una cuenta de Metamovidas, porque no existe esa cuenta.</p>
+
+      <h2 id="es-derechos">6. Base legal y derechos (RGPD)</h2>
+      <p>El tratamiento local es necesario para prestar el servicio del juego (interés en ejecutar la app que has instalado). La publicidad de AdMob se basa en el interés legítimo de financiar la app gratuita y, cuando la normativa lo exige (EEE y asimilados), en tu <strong>consentimiento</strong> para anuncios personalizados.</p>
+      <p>Si el RGPD te aplica, puedes solicitar acceso, rectificación, supresión, limitación, oposición y portabilidad de los datos que Metamovidas conserve (en la práctica, casi ninguno fuera del dispositivo). También puedes reclamar ante la <a href="https://www.aepd.es" rel="noopener noreferrer">Agencia Española de Protección de Datos (AEPD)</a>.</p>
+      <p>Para datos tratados por Google AdMob, ejerce tus derechos ante Google o mediante los ajustes de publicidad del dispositivo.</p>
+
+      <h2 id="es-contacto">7. Contacto</h2>
+      <p>Para preguntas sobre esta política o sobre tus datos:</p>
+      <p><strong>Soporte Metamovidas</strong><br>
+        <a href="mailto:soporte.metamovidas@gmail.com">soporte.metamovidas@gmail.com</a></p>
+      <p>Responderemos en un plazo razonable. Si cambias de correo de contacto, actualizaremos esta página.</p>
+      <p>Podemos modificar esta política si cambia el funcionamiento de las apps o de AdMob. La fecha de «última actualización» al inicio es la referencia vigente.</p>
+    </article>
+
+    <article id="en" class="panel" lang="en" hidden>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: 31 August 2026</p>
+      <p class="lede">This policy explains how data is handled in the puzzle and board-game mobile apps published by <strong>Metamovidas</strong> on Google Play and monetized with Google AdMob ads.</p>
+
+      <nav aria-label="Contents">
+        <p>Contents</p>
+        <ol>
+          <li><a href="#en-controller">Controller</a></li>
+          <li><a href="#en-not">Data we do not collect</a></li>
+          <li><a href="#en-admob">Advertising (Google AdMob)</a></li>
+          <li><a href="#en-local">Local storage</a></li>
+          <li><a href="#en-network">Network and analytics</a></li>
+          <li><a href="#en-rights">Your rights (GDPR)</a></li>
+          <li><a href="#en-contact">Contact</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="en-controller">1. Data controller</h2>
+      <p>The controller is <strong>Metamovidas</strong>, based in Zaragoza, Spain. This policy covers mobile apps published under that name on Google Play, including:</p>
+      <ul class="apps">
+        <li>8 Damas</li>
+        <li>Huarongdao</li>
+        <li>Petteia</li>
+        <li>Ludus Latrunculorum</li>
+        <li>Three-Trick</li>
+        <li>Chess Puzzles</li>
+        <li>Numbers Puzzle</li>
+      </ul>
+      <p>The apps are puzzle or board games. They are not directed at children under 13 and we do not knowingly collect data from children.</p>
+
+      <h2 id="en-not">2. Data we do not collect</h2>
+      <p>Metamovidas <strong>does not directly collect sensitive personal data</strong>. The developer does not request or store on its own servers:</p>
+      <ul>
+        <li>full name (except an optional nickname on leaderboards, if the app offers that);</li>
+        <li>email address, phone number or postal address;</li>
+        <li>passwords or first-party user accounts;</li>
+        <li>precise location, photos, contacts or microphone access.</li>
+      </ul>
+      <p>There is no in-app account. If an app offers a paid “remove ads” option, Google Play processes the purchase; the developer never receives payment-card details.</p>
+
+      <h2 id="en-admob">3. Advertising: Google AdMob</h2>
+      <p>Free versions show ads through the <strong>Google AdMob</strong> SDK (Google Ireland Limited / Google LLC). That SDK may collect <strong>basic usage data</strong> and <strong>advertising identifiers</strong> (such as the Android Advertising ID) to serve <strong>personalized or non-personalized</strong> ads.</p>
+      <p>Depending on device settings, user consent and Google’s policies, AdMob may process, among other things:</p>
+      <ul>
+        <li>advertising ID (AAID) and consent signals;</li>
+        <li>IP address, language, device model and OS version;</li>
+        <li>app name and version, and ad interactions (impressions and clicks);</li>
+        <li>approximate information derived from the network (not GPS location collected by us).</li>
+      </ul>
+      <p class="note">Google is an independent controller for that advertising processing. See <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a> and how Google uses data for <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">advertising</a>.</p>
+      <p>You can limit personalized ads on the device: <strong>Settings → Google → Ads</strong> (opt out of ad personalization) or at <a href="https://adssettings.google.com" rel="noopener noreferrer">adssettings.google.com</a>. In the EEA, the UK and Switzerland, AdMob may show a consent message (UMP / GDPR) before personalized ads.</p>
+
+      <h2 id="en-local">4. Local storage (localStorage and preferences)</h2>
+      <p>The apps store information <strong>on the device only</strong>, via WebView <code>localStorage</code>, Android SharedPreferences or equivalent local stores. This is for gameplay, not profiling. It may include:</p>
+      <ul>
+        <li>language, sound, volume and other UI preferences;</li>
+        <li>progress, levels, unfinished games and local high scores;</li>
+        <li>the “remove ads” purchase flag, if applicable.</li>
+      </ul>
+      <p>That data is not sent to Metamovidas servers. Uninstalling the app or clearing its data in Android removes it from the phone.</p>
+
+      <h2 id="en-network">5. Network analytics and online features</h2>
+      <p>When ads are shown, the AdMob SDK makes encrypted network requests to Google servers. Those requests carry ordinary technical metadata (IP, advertising identifiers, app version). Metamovidas <strong>does not run its own analytics product</strong> (such as Google Analytics) on gameplay.</p>
+      <p>Some apps may optionally use the network for:</p>
+      <ul>
+        <li>a leaderboard (for example a nickname and a time);</li>
+        <li>online rooms or matches (room code and match state).</li>
+      </ul>
+      <p>That information is limited to what the feature needs. It is not linked to an email address or a Metamovidas account, because no such account exists.</p>
+
+      <h2 id="en-rights">6. Legal basis and rights (GDPR)</h2>
+      <p>Local processing is needed to provide the game you installed. AdMob advertising is based on the legitimate interest of funding the free app and, where required (EEA and similar), on your <strong>consent</strong> for personalized ads.</p>
+      <p>If the GDPR applies to you, you may request access, rectification, erasure, restriction, objection and portability for data Metamovidas holds (in practice, almost none beyond the device). You may also lodge a complaint with the <a href="https://www.aepd.es" rel="noopener noreferrer">Spanish Data Protection Agency (AEPD)</a>.</p>
+      <p>For data processed by Google AdMob, exercise your rights with Google or through the device’s ad settings.</p>
+
+      <h2 id="en-contact">7. Contact</h2>
+      <p>For questions about this policy or your data:</p>
+      <p><strong>Metamovidas support</strong><br>
+        <a href="mailto:soporte.metamovidas@gmail.com">soporte.metamovidas@gmail.com</a></p>
+      <p>We will reply within a reasonable time. If the contact address changes, this page will be updated.</p>
+      <p>We may update this policy if the apps or AdMob change. The “last updated” date at the top is the current version.</p>
+    </article>
+
+    <footer>
+      <p>Metamovidas · Zaragoza, España</p>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var es = document.getElementById("es");
+      var en = document.getElementById("en");
+      var btnEs = document.getElementById("btn-es");
+      var btnEn = document.getElementById("btn-en");
+
+      function setLang(lang) {
+        var isEn = lang === "en";
+        es.hidden = isEn;
+        en.hidden = !isEn;
+        document.documentElement.lang = isEn ? "en" : "es";
+        btnEs.setAttribute("aria-pressed", String(!isEn));
+        btnEn.setAttribute("aria-pressed", String(isEn));
+        try { localStorage.setItem("privacy-lang", isEn ? "en" : "es"); } catch (e) {}
+      }
+
+      btnEs.addEventListener("click", function () { setLang("es"); });
+      btnEn.addEventListener("click", function () { setLang("en"); });
+
+      var start = "es";
+      try { start = localStorage.getItem("privacy-lang") || start; } catch (e) {}
+      if (location.hash.indexOf("en") === 1) start = "en";
+      setLang(start);
+    })();
+  </script>
+</body>
+</html>
