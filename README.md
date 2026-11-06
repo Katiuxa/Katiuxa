@@ -28,6 +28,8 @@ Con 1 GB no hay LLM local. La carga pesada de texto va a la nube; en la Pi queda
 - Extracción de noticias.
 - [Biblioteca Secreta](https://github.com/Katiuxa/Telegram-Bots-Suite/tree/main/BotBiblioteca): catálogo de epubs en el USB. Búsqueda en SQLite por título o autor y envío del fichero por Telegram. La base y los libros no están en GitHub; solo el código.
 
+[Meta-LLM](https://github.com/Katiuxa/Meta-LLM) es el chat aparte. Telegram y un panel en el puerto 5000. OpenRouter hace de pasarela: desde el propio menú cambio de modelo. Dolphin Venice, Cydonia, Euryale, Hermes y compañía van con pocos rechazos (charla, relato, roleplay). Qwen3 Coder y Command R+ se quedan con filtro, para código y textos largos. Las imágenes pasan por Gemini Flash Image, también en OpenRouter. La clave y el token del bot viven en el `.env` de la Pi.
+
 ## Web y lógica
 
 Juegos de mesa clásicos e históricos: reglas, interfaz, web y Android.
@@ -46,4 +48,4 @@ Juegos de mesa clásicos e históricos: reglas, interfaz, web y Android.
 - Sistemas y redes: Linux (Debian), Bash, systemd, SSH, Tailscale, TigerVNC, zRAM.
 - Desarrollo (DAW): Python, JavaScript, HTML/CSS, SQLite, APIs REST.
 - Procesamiento y CLI: FFmpeg, yt-dlp, Calibre (`ebook-convert`).
-- Herramientas: Git/GitHub, Capacitor / Android, Cursor IDE.
+- Herramientas: Git/GitHub, Capacitor / Android.
