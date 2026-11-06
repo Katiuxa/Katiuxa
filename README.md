@@ -34,12 +34,12 @@ Juegos de mesa clásicos e históricos: reglas, interfaz, web y Android.
 
 | Proyecto | Repositorio | Jugar en el navegador |
 |---|---|---|
-| Ludus Latrunculorum | [Latrunculi](https://github.com/Katiuxa/Latrunculi) | [demo](https://katiuxa.github.io/Latrunculi/) |
-| Petteia | [Petteia](https://github.com/Katiuxa/Petteia) | [demo](https://katiuxa.github.io/Petteia/) |
-| Three-Trick | [Three-Trick](https://github.com/Katiuxa/Three-Trick) | [demo](https://katiuxa.github.io/Three-Trick/) |
-| 8 Damas | [Ocho-Damas](https://github.com/Katiuxa/Ocho-Damas) | [demo](https://katiuxa.github.io/Ocho-Damas/) |
-| Chess Puzzles | [Chess-Puzzles](https://github.com/Katiuxa/Chess-Puzzles) | [demo](https://katiuxa.github.io/Chess-Puzzles/) |
-| Klotski | [Klotski](https://github.com/Katiuxa/Klotski) | [demo](https://katiuxa.github.io/Klotski/) |
+| Ludus Latrunculorum | [Latrunculi](https://github.com/Katiuxa/Latrunculi) | [demo](https://latrunculigame.vercel.app) |
+| Petteia | [Petteia](https://github.com/Katiuxa/Petteia) | [demo](https://petteia.vercel.app) |
+| Three-Trick | [Three-Trick](https://github.com/Katiuxa/Three-Trick) | [demo](https://tritrick.vercel.app) |
+| 8 Damas | [Ocho-Damas](https://github.com/Katiuxa/Ocho-Damas) | [demo](https://8damas.com) |
+| Chess Puzzles | [Chess-Puzzles](https://github.com/Katiuxa/Chess-Puzzles) | [demo](https://puzzleschess.vercel.app) |
+| Klotski | [Klotski](https://github.com/Katiuxa/Klotski) | [demo](https://huarongdaoklotski.vercel.app) |
 
 ## Stack
 
