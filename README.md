@@ -35,7 +35,7 @@ Juegos de mesa clásicos e históricos: reglas, interfaz, web y Android.
 | Proyecto | Repositorio | Jugar en el navegador |
 |---|---|---|
 | Ludus Latrunculorum | [Latrunculi](https://github.com/Katiuxa/Latrunculi) | [demo](https://latrunculigame.vercel.app) |
-| Petteia | [Petteia](https://github.com/Katiuxa/Petteia) | [demo](https://petteia.vercel.app) |
+| Petteia | [Petteia](https://github.com/Katiuxa/Petteia) | [demo](https://petteiagame.vercel.app) |
 | Three-Trick | [Three-Trick](https://github.com/Katiuxa/Three-Trick) | [demo](https://tritrick.vercel.app) |
 | 8 Damas | [Ocho-Damas](https://github.com/Katiuxa/Ocho-Damas) | [demo](https://8damas.com) |
 | Chess Puzzles | [Chess-Puzzles](https://github.com/Katiuxa/Chess-Puzzles) | [demo](https://puzzleschess.vercel.app) |
