@@ -20,9 +20,11 @@ Project: [debian-homelab](https://github.com/Katiuxa/debian-homelab)
 
 Custom firmware development for microcontrollers.
 
-- **META TV IR**: Interactive infrared TV scanner and universal remote firmware for the **M5Stack Cardputer ADV** (ESP32-S3 / Stamp-S3A, 8 MB Flash, no PSRAM).
+- **[META TV IR](https://github.com/Katiuxa/Meta-TV-IR)**: Interactive infrared TV scanner and universal remote firmware for the **M5Stack Cardputer ADV** (ESP32-S3 / Stamp-S3A, 8 MB Flash, no PSRAM).
 - Features regional codebase filtering (EU, US, Asia, All), interactive Auto-Sweep with instant freeze-on-reaction, stealth probing (`MUTE` / `VOL+`), full remote layout, favorites, and continuous ON/OFF brute-force mode.
 - Built with C++ / PlatformIO and distributed via M5Burner and M5Launcher.
+
+Project: [Meta-TV-IR](https://github.com/Katiuxa/Meta-TV-IR)
 
 ## Automation & APIs
 
