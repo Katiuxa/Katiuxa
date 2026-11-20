@@ -33,7 +33,7 @@ Custom firmware development for microcontrollers.
 - Groq API integration with automatic model fallback when rate limits/quotas are hit.
 - Audio/video transcription and document format conversion (Calibre).
 - Disposable email service.
-- News scraping and extraction.
+- News scraping and extraction: [OnlyNews](https://github.com/Katiuxa/Telegram-Bots-Suite/tree/main/OnlyNews) — Extracts clean article text and media directly from HTML, bypassing paywalls, JavaScript blocks, and reader restrictions.
 - [Biblioteca Secreta](https://github.com/Katiuxa/Telegram-Bots-Suite/tree/main/BotBiblioteca): EPUB catalog stored on USB. SQLite search by title or author with direct file delivery via Telegram. The database and books are not hosted on GitHub—source code only.
 
 [Meta-LLM](https://github.com/Katiuxa/Meta-LLM) is a standalone chat interface featuring a Telegram bot and a web panel on port 5000. OpenRouter acts as the API gateway, allowing on-the-fly model switching straight from the menu. Dolphin Venice, Cydonia, Euryale, Hermes, and similar models handle unfiltered chat, creative writing, and roleplay, while Qwen3 Coder and Command R+ remain moderated for coding and long-form text. Image generation routes through Gemini Flash Image, also via OpenRouter. Both the API key and bot token live in the Pi's `.env` file.
