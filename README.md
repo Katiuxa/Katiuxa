@@ -16,6 +16,14 @@ Linux systems administration, diagnostics, and automation.
 
 Project: [debian-homelab](https://github.com/Katiuxa/debian-homelab)
 
+## Embedded & Hardware
+
+Custom firmware development for microcontrollers.
+
+- **META TV IR**: Interactive infrared TV scanner and universal remote firmware for the **M5Stack Cardputer ADV** (ESP32-S3 / Stamp-S3A, 8 MB Flash, no PSRAM).
+- Features regional codebase filtering (EU, US, Asia, All), interactive Auto-Sweep with instant freeze-on-reaction, stealth probing (`MUTE` / `VOL+`), full remote layout, favorites, and continuous ON/OFF brute-force mode.
+- Built with C++ / PlatformIO and distributed via M5Burner and M5Launcher.
+
 ## Automation & APIs
 
 1 GB of RAM leaves no room for local LLMs. Heavy text processing is offloaded to the cloud, while the Pi handles orchestration, systemd, and disk I/O.
@@ -39,13 +47,14 @@ Classic and historical board games: rule engines, UI, web, and Android.
 | Ludus Latrunculorum | [Latrunculi](https://github.com/Katiuxa/Latrunculi) | [demo](https://latrunculigame.vercel.app) |
 | Petteia | [Petteia](https://github.com/Katiuxa/Petteia) | [demo](https://petteiagame.vercel.app) |
 | Three-Trick | [Three-Trick](https://github.com/Katiuxa/Three-Trick) | [demo](https://tritrick.vercel.app) |
-| 8 Damas | [Ocho-Damas](https://github.com/Katiuxa/Ocho-Damas) | [demo](https://8damas.com) |
+| 8 Damas | [Ocho-Damas](https://github.com/Katiuxa/Ocho-Damas) | [demo](https://8damas.vercel.app) |
 | Chess Puzzles | [Chess-Puzzles](https://github.com/Katiuxa/Chess-Puzzles) | [demo](https://puzzleschess.vercel.app) |
 | Klotski | [Klotski](https://github.com/Katiuxa/Klotski) | [demo](https://huarongdaoklotski.vercel.app) |
 
 ## Stack
 
 - Systems & Networking: Linux (Debian), Bash, systemd, SSH, Tailscale, TigerVNC, zRAM.
-- Development: Python, JavaScript, HTML/CSS, SQLite, REST APIs.
+- Development: Python, C++, JavaScript, HTML/CSS, SQLite, REST APIs.
+- Embedded & Hardware: ESP32-S3, M5Stack Cardputer ADV, PlatformIO, Infrared (IR) protocols.
 - Media Processing & CLI: FFmpeg, yt-dlp, Calibre (`ebook-convert`).
 - Tools: Git/GitHub, Capacitor / Android.
