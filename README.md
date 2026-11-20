@@ -50,6 +50,7 @@ Classic and historical board games: rule engines, UI, web, and Android.
 | **8 Damas** | The classic N-Queens logic puzzle—place queens so none share a row, column, or diagonal. Supports free play, pre-set puzzle boards, and 1, 3, or 5-minute time attacks across **8×8** to **11×11** grids. | [GitHub](https://github.com/Katiuxa/Ocho-Damas) · [Play](https://8damas.vercel.app) |
 | **Chess Puzzles** | Android puzzle app adapting four chess compositions by Sherzod Khaydarbekov (2025): *Rook Sacrifice*, *The Black Pawn*, *Four Square*, and *Queen Moves*. Standard chess movement on constrained boards with blocked squares. | [GitHub](https://github.com/Katiuxa/Chess-Puzzles) |
 | **Klotski** | Traditional *Huarongdao* sliding-block puzzle. Maneuver the surrounding blocks to free the main red piece through the bottom exit gate. | [GitHub](https://github.com/Katiuxa/Klotski) · [Play](https://huarongdaoklotski.vercel.app) |
+| **Euler's Knight** | The knight's tour. Move in an L and visit every square on a **5×5**, **6×6**, **7×7**, or **8×8** board exactly once. | [GitHub](https://github.com/Katiuxa/Eulers-Knight) |
 
 ## Stack
 
