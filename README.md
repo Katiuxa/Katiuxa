@@ -40,16 +40,19 @@ Custom firmware development for microcontrollers.
 
 ## Web & Logic
 
-Classic and historical board games: rule engines, UI, web, and Android.
+Classic and historical board games. Rule engines, interface, web, and Android.
 
-| Project | Repository | Play in browser |
-|---|---|---|
-| Ludus Latrunculorum | [Latrunculi](https://github.com/Katiuxa/Latrunculi) | [demo](https://latrunculigame.vercel.app) |
-| Petteia | [Petteia](https://github.com/Katiuxa/Petteia) | [demo](https://petteiagame.vercel.app) |
-| Three-Trick | [Three-Trick](https://github.com/Katiuxa/Three-Trick) | [demo](https://tritrick.vercel.app) |
-| 8 Damas | [Ocho-Damas](https://github.com/Katiuxa/Ocho-Damas) | [demo](https://8damas.vercel.app) |
-| Chess Puzzles | [Chess-Puzzles](https://github.com/Katiuxa/Chess-Puzzles) | [demo](https://puzzleschess.vercel.app) |
-| Klotski | [Klotski](https://github.com/Katiuxa/Klotski) | [demo](https://huarongdaoklotski.vercel.app) |
+**[Ludus Latrunculorum](https://github.com/Katiuxa/Latrunculi).** Roman soldiers on an incised board. Every piece moves like a rook. An enemy falls by custody, caught between two of yours. The Dux does not fall that way: you win by closing its four sides. Normal is 8×8. Britannia is 8×12. [Play](https://latrunculi.vercel.app)
+
+**[Petteia](https://github.com/Katiuxa/Petteia).** The Greek pincer game, under the name ΠΕΤΤΕΙΑ. Pieces move like a rook and capture by closing a pincer. Five strengths, from Paidion to Palamedes, or an online game with a room code. [Play](https://petteiagame.vercel.app)
+
+**[Three-Trick](https://github.com/Katiuxa/Three-Trick).** The physical tile puzzle, on screen. Slide, lift, and drop until the tiles sit in order from 1 to 9. [Play](https://tritrick.vercel.app)
+
+**[8 Damas](https://github.com/Katiuxa/Ocho-Damas).** The eight queens puzzle. Place the queens so that none share a row, a column, or a diagonal. Normal play, problem boards with queens already fixed, and a time attack of 1, 3, or 5 minutes. Boards run from 8×8 to 11×11. [Play](https://8damas.vercel.app)
+
+**[Chess Puzzles](https://github.com/Katiuxa/Chess-Puzzles).** Android app. Four chess studies by Sherzod Khaydarbekov (2025): Rook Sacrifice, The Black Pawn, Four Square, and Queen Moves. Orthodox moves, blocked squares, one objective on each board.
+
+**[Klotski](https://github.com/Katiuxa/Klotski).** Huarongdao. Slide the blocks and bring the single red piece out through the bottom gate. [Play](https://huarongdaoklotski.vercel.app)
 
 ## Stack
 
