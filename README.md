@@ -20,9 +20,10 @@ Project: [debian-homelab](https://github.com/Katiuxa/debian-homelab)
 
 Custom firmware development for microcontrollers.
 
-- **[META TV IR](https://github.com/Katiuxa/Meta-TV-IR)**: Interactive infrared TV scanner and universal remote firmware for the **M5Stack Cardputer ADV** (ESP32-S3 / Stamp-S3A, 8 MB Flash, no PSRAM).
-- Features regional codebase filtering (EU, US, Asia, All), interactive Auto-Sweep with instant freeze-on-reaction, stealth probing (`MUTE` / `VOL+`), full remote layout, favorites, and continuous ON/OFF brute-force mode.
-- Built with C++ / PlatformIO and distributed via M5Burner and M5Launcher.
+- **[META TV](https://github.com/Katiuxa/Meta-TV-IR)**: Infrared scanner and local Wi-Fi TV control for the **M5Stack Cardputer ADV** (ESP32-S3 / Stamp-S3A, 8 MB Flash, no PSRAM). Current release 1.1.10.
+- Infrared: regional brand filtering, Auto-Sweep with freeze-on-reaction, stealth probe (`MUTE` / `VOL+`), full remote, favorites, and continuous ON/OFF brute force.
+- Wi-Fi: the password is typed on the device and remembered. The search only listens for TVs that announce themselves. YouTube opens from an 11-character id or from a normal link. Samsung, LG, Sony, Roku, Panasonic, and Philips also take a network remote. Other sets stay on infrared.
+- Built with C++ / PlatformIO. M5Burner writes the full flash image. M5Launcher uses the application image.
 
 Project: [Meta-TV-IR](https://github.com/Katiuxa/Meta-TV-IR)
 
@@ -58,6 +59,6 @@ Classic and historical board games: rule engines, UI, web, and Android.
 
 - Systems & Networking: Linux (Debian), Bash, systemd, SSH, Tailscale, TigerVNC, zRAM.
 - Development: Python, C++, JavaScript, HTML/CSS, SQLite, REST APIs.
-- Embedded & Hardware: ESP32-S3, M5Stack Cardputer ADV, PlatformIO, Infrared (IR) protocols.
+- Embedded & Hardware: ESP32-S3, M5Stack Cardputer ADV, PlatformIO, infrared protocols, local Wi-Fi (listen-only discovery, YouTube, network remote).
 - Media Processing & CLI: FFmpeg, yt-dlp, Calibre (`ebook-convert`).
 - Tools: Git/GitHub, Capacitor / Android.
