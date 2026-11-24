@@ -25,7 +25,7 @@ Custom firmware development for microcontrollers.
 - Wi-Fi: the password is typed on the device and remembered. The search only listens for TVs that announce themselves. YouTube opens from an 11-character id or from a normal link. Samsung, LG, Sony, Roku, Panasonic, and Philips also take a network remote. Other sets stay on infrared.
 - Built with C++ / PlatformIO. M5Burner writes the full flash image. M5Launcher uses the application image.
 
-Project: [Meta-TV-IR](https://github.com/Katiuxa/Meta-TV-IR) · [M5 Partner](https://burner.m5stack.com/G3FGBG)
+Project: [Meta-TV-IR](https://github.com/Katiuxa/Meta-TV-IR) · [M5Burner](https://burner.m5stack.com/G3FGBG)
 
 ## Automation & APIs
 
